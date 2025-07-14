@@ -1,0 +1,49 @@
+@fontePrincipal: Reboto, sans-serif;
+@CordeFundo: #2d3436;
+@CorDoTexto: #fff;
+
+body {
+  background: @CordeFundo;
+  font-family: @fontePrincipal;
+  color: @CorDoTexto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.icon {
+  width: 80px; 
+  height: 90px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.container {
+  background: @CordeFundo;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.options label {
+  display: block;
+  margin: 10px 0;
+}
+
+#password {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+button {
+    padding: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-top: 4px;
+    border-radius: 5px;
+    background-color: rgb(88, 233, 88);
+}
