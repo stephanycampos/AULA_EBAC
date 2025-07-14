@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gerador de Senhas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Homemade+Apple&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gerador de Senhas Seguras</h1>
+    <div class="options">
+      <label>
+        <input type="checkbox" id="uppercase"> Letras maiúsculas
+      </label>
+      <label>
+        <input type="checkbox" id="lowercase" checked> Letras minúsculas
+      </label>
+      <label>
+        <input type="checkbox" id="numbers" checked> Números
+      </label>
+      <label>
+        <input type="checkbox" id="symbols"> Símbolos
+      </label>
+      <label>
+        Tamanho: <input type="number" id="length" min="6" max="32" value="12">
+      </label>
+    </div>
+    <button id="generate">Gerar Senha</button>
+    <input type="text" id="password" readonly>
+    <button id="copy">Copiar</button>
+  </div>
+  <script src="../src/scripts/main.js"></script>
+</body>
+</html>
