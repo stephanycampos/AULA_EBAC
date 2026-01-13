@@ -49,12 +49,26 @@
     "@types/styled-components": "^5.1.34",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
-    "cypress": "^15.8.1",
+    "cypress": "^15.8.2",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^2.8.8"
-  }
+  },
+  "description": "Este projeto é uma aplicação desenvolvida com ReactJS que permite aos usuários gerenciar uma lista de contatos. O objetivo principal é fornecer uma interface simples e eficiente para adicionar, visualizar e remover contatos.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanycampos/AULA_EBAC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/stephanycampos/AULA_EBAC/issues"
+  },
+  "homepage": "https://github.com/stephanycampos/AULA_EBAC#readme"
 }
